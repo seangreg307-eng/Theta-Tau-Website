@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap'); 
+
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #5F6A72;
+    background-color: #1b1b1b;
+}
+
+.psectionHead{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+  .carousel-inner{
+    width:100%;
+  }
+
+  ul {
+    list-style: none; /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;
+  }
+
+  li.p{
+      padding-left: 10%
+  }
+
+  li.p::before {
+    content: "■"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #CC0033; /* Or a color you prefer */
+  }
+
+  .caption h6 {
+    color: white;
+    font-size: 300 rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}

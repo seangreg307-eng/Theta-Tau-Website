@@ -1,0 +1,12 @@
+.DMContent {
+    margin-top: 80px;
+}
+
+.ServicePic {
+    border: 0px;
+    padding: 0px;
+}
+
+.ServicePic > img {
+    border: 5px solid #8B0000;
+}

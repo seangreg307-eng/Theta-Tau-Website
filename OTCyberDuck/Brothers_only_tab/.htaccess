@@ -1,0 +1,12 @@
+# Prevent caching of authentication credentials and private page
+<FilesMatch "brothers-only-page.html">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</FilesMatch>
+
+# Force re-authentication for protected area
+AuthType Basic
+AuthName "My Protected Folder"
+AuthUserFile /www/custom/thetatau/Brothers_only_tab/.htpasswd
+Require valid-user
